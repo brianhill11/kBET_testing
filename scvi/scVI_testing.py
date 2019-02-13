@@ -17,24 +17,18 @@ from scvi.models import *
 from scvi.inference import UnsupervisedTrainer
 
 
-# In[ ]:
+# In[2]:
 
 
 # create a python script from the notebook
 get_ipython().system('jupyter nbconvert scVI_testing.ipynb --to script')
 
 
-# In[ ]:
+# In[3]:
 
 
 #gene_dataset = AnnDataset(filename="subsampled_CLUESImmVar_nonorm.h5ad", save_path="./")
 gene_dataset = PbmcDataset(save_path="../data")
-
-
-# In[ ]:
-
-
-gene_dataset.
 
 
 # In[ ]:
